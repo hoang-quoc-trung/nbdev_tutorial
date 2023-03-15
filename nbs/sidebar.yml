@@ -6,3 +6,6 @@ website:
       - 01_Directives.ipynb
       - 02_create_and_edit_page.ipynb
       - 03_test.ipynb
+      - nbdev.yml
+      - sidebar.yml
+      - styles.css
