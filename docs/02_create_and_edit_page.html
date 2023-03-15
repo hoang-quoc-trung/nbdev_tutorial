@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="create-page" class="level3">
 <h3 class="anchored" data-anchor-id="create-page">1. Create page</h3>
 <ul>
-<li><p>Khi bạn đã khởi tạo nbdev trên repository của mình bằng command <a href="https://nbdev.fast.ai/api/cli.html#nbdev_new">nbdev_new</a>, bạn nên setup một vài tông tin như sau để cho việc push code lên Github Page trở lên thành công hơn:<br>
+<li><p>Sau bạn đã khởi tạo nbdev trên repository của mình bằng command <a href="https://nbdev.fast.ai/api/cli.html#nbdev_new">nbdev_new</a>, bạn nên setup một vài thông tin như sau để cho việc push code lên Github Page trở lên thành công hơn:<br>
 <strong>Trên local:</strong> Bạn hãy sửa file <code>settings.ini</code> bằng cách thay đổi <code>doc_path=_docs</code> thành <code>doc_path=docs</code>. Sau đó vô folder <code>.github/workflows</code>, mở file <code>deploy.yaml</code> và sửa <code>branches: [ "main", "master" ]</code> thành branch bạn đang làm việc với nbdev.<br>
 <strong>Trên Github Page:</strong> Tại repository bạn hãy nhấp vào <code>Setting &gt; Pages &gt; Branch</code>, tại đây hãy chọn branch mà bạn đã set trên local, thay đổi <code>/(root)</code> thành <code>/docs</code> và ấn save. <img src="02_create_and_edit_page_files/figure-html/8ab8dbd3-d8a6-4fa7-b42c-1c218b7905d8-1-1fdd3b68-b6d5-46e9-9bca-2c80342ebd32.png" class="img-fluid"></p></li>
 <li><p>Sau khi đã setup xong mọi thứ, bạn có thể viết page thông qua file notebook <code>.ipynb</code> trong folder <code>nbs</code>. Tại mỗi file notbook bạn nên bắt đầu với cell đầu tiên bằng một title (<code># title</code>) và một subtitle (<code>&gt; subtitle</code>), title này sẽ được sử dụng để hiển thị ở sidebar trên page, ví dụ:<br>
